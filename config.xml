@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <widget xmlns     = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/2.9.0"
-        id        = "ar.com.plopi.employeedirectory"
+        id        = "com.plopi.employeedirectory"
         versionCode="10"
         version   = "0.7">
 
     <!-- versionCode is optional and Android only -->
 
-    <name>Libreta de Contactos</name>
+    <name>_.:Libreta de Contactos :._</name>
 
     <description>
         Aplicación de Libreta de Contactos
@@ -20,5 +20,6 @@
     <feature name="http://api.phonegap.com/1.0/geolocation" />
     <feature name="http://api.phonegap.com/1.0/contacts" />
     <feature name="http://api.phonegap.com/1.0/camera" />
-
+	<feature name="http://api.phonegap.com/1.0/network" />
+	<feature name="http://api.phonegap.com/1.0/device" />
 </widget>
