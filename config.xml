@@ -1,20 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <widget xmlns     = "http://www.w3.org/ns/widgets"
-        xmlns:gap = "http://phonegap.com/ns/1.0"
-        id        = "org.coenraets.employeedirectory"
+        xmlns:gap = "http://phonegap.com/ns/2.9.0"
+        id        = "ar.com.plopi.employeedirectory"
         versionCode="10"
-        version   = "1.1.0">
+        version   = "0.7">
 
     <!-- versionCode is optional and Android only -->
 
-    <name>Employee Directory</name>
+    <name>Libreta de Contactos</name>
 
     <description>
-        A simple employee directory application
+        Aplicación de Libreta de Contactos
     </description>
 
-    <author href="http://coenraets.org" email="ccoenraets@gmail.com">
-        Christophe Coenraets
+    <author href="http://www.plopi.com.ar" email="info@plopi.com.ar">
+        Martín Borches
     </author>
+    
+    <feature name="http://api.phonegap.com/2.9.0/geolocation" />
+    <feature name="http://api.phonegap.com/2.9.0/contacts" />
+    <feature name="http://api.phonegap.com/2.9.0/geolocation" />
 
 </widget>
