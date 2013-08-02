@@ -12,12 +12,12 @@ var EmployeeView = function(employee) {
 
 	this.addLocation = function(event) {
 	    event.preventDefault();
-	    console.log('addLocation');
+	    //console.log('addLocation');
 	    navigator.geolocation.getCurrentPosition(
 	        function(position) {
 	            //$('.location', this.el).html(position.coords.latitude + ',' + position.coords.longitude);
 	            //console.log(position.coords.latitude + ',' + position.coords.longitude);
-	            alert(position.coords.latitude + ',' + position.coords.longitude);
+	            $('#my-position').html(position.coords.latitude + ',' + position.coords.longitude);
 	        },
 	        function() {
 	            alert('Error getting location');
